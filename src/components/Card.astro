@@ -9,5 +9,6 @@ import type { CollectionEntry } from 'astro:content';
 const { video } = Astro.props;
 const { Content } = await video.render();
 ---
-
-<Content />
+<div class:list={[ 'video-wrapper', `${video.data.platform}` ]}>
+  <Content />
+</div>
