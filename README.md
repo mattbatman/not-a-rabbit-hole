@@ -8,3 +8,7 @@ This project was started with the Astro init command (`npm create astro@latest`)
 npm install
 npm run dev
 ```
+
+## Deploy
+
+This site is set to deploy with a GitHub action on commits to the `master` branch.
