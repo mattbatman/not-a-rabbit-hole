@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+
+export async function getStaticPaths() {
+  const videos = await getCollection('videos');
+
+  return videos.map(function (video) {
+    return {
+      params: { slug: video.slug },
+      props: { video }
+    }
+  });
+}
+
+const { video } = Astro.props;
+const { Content } = await video.render();
+---
+
+<Layout title="Not a rabbit hole.">
+  <main>
+    <Content />
+  </main>
+</Layout>
