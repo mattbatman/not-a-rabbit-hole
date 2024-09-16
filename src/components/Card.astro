@@ -9,6 +9,34 @@ import type { CollectionEntry } from 'astro:content';
 const { video } = Astro.props;
 const { Content } = await video.render();
 ---
-<div class:list={[ 'video-wrapper', `${video.data.platform}` ]}>
-  <Content />
+<div class="card">
+  <div class:list={[ 'video-wrapper', `${video.data.platform}` ]}>
+    <Content />
+  </div>
+  <div class="title">
+   { video.data.title }
+  </div>
+  <div class="page-link-block">
+    <a href={`/videos/${video.slug}`} class="page-link">More info &rarr;</a>
+  </div>
 </div>
+<style>
+  .card {
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .page-link-block {
+    text-align: right;
+  }
+
+  .page-link {
+    border: 1px solid #ffffff;
+    padding: 0.3rem;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+  }
+</style>
