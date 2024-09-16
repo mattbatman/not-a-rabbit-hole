@@ -20,20 +20,16 @@ const { Content } = await video.render();
 
 <Layout title="Not a rabbit hole.">
   <main>
-    <a href="/">&larr;</a>
     <div class="tube">
+    <a href="/" class="back-link">&larr; Not a rabbit hole.</a>
     <Content />
     </div>
   </main>
 </Layout>
 <style>
-  a {
-    text-decoration: none;
-  }
-
-  a,
-  a:visited,
-  a:active {
-    color: white;
+  .back-link {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 </style>
