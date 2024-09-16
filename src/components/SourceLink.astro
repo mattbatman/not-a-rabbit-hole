@@ -1,0 +1,23 @@
+---
+interface Props {
+  platform: string;
+  link: string;
+}
+
+const { platform, link } = Astro.props;
+---
+
+<div class="source-link-block">
+  <a href={link} class="source-link">Watch on {platform} &rarr;</a>
+</div>
+<style>
+  .source-link-block {
+    margin-bottom: 1rem;
+  }
+
+  .source-link {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 0.5rem;
+  }
+</style>

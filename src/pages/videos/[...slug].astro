@@ -1,7 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import Card from '../../components/Card.astro';
+import Tags from '../../components/Tags.astro';
+import SourceLink from '../../components/SourceLink.astro';
 
 export async function getStaticPaths() {
   const videos = await getCollection('videos');
@@ -22,14 +23,41 @@ const { Content } = await video.render();
   <main>
     <div class="tube">
     <a href="/" class="back-link">&larr; Not a rabbit hole.</a>
-    <Content />
+    <div class:list={[ 'video-wrapper', `${video.data.platform}` ]}>
+      <Content />
+    </div>
+    <div class="title">
+     { video.data.title }
+    </div>
+    <div class="attribution">
+      Attribution: { video.data.channel }
+    </div>
+    <div class="tags-container">
+    <Tags tags={video.data['video-tags']} />
+    </div>
+    <SourceLink link={video.data['source-link']} platform={video.data.platform} />
     </div>
   </main>
 </Layout>
 <style>
+  .title {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  .attribution {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
   .back-link {
     display: block;
     margin-top: 1rem;
     margin-bottom: 2rem;
+  }
+
+  .tags-container {
+    margin-bottom: 1rem;
   }
 </style>
