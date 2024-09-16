@@ -4,6 +4,7 @@ interface Props {
 }
 
 import type { CollectionEntry } from 'astro:content';
+import Tags from './Tags.astro';
 
 // `post` will match your 'blog' collection schema type
 const { video } = Astro.props;
@@ -22,7 +23,7 @@ const { Content } = await video.render();
   <div class="source-link-block">
     <a href={video.data['source-link']} class="source-link">Watch on {video.data.platform} &rarr;</a>
   </div>
-
+  <Tags tags={video.data['video-tags']} />
 </div>
 <style>
   .card {

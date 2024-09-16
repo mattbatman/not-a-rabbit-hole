@@ -29,7 +29,6 @@ const { videos } = Astro.props;
      <div class="tube">
    <a href="/" class="back-link">&larr; Not a rabbit hole.</a>
     <h1>#{ tag }</h1>
-
 		  {
 			  videos.map((video) => <Card video={video} />)
 		  }

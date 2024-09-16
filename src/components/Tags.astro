@@ -1,0 +1,28 @@
+---
+interface Props {
+  tags: string[];
+}
+
+const { tags } = Astro.props;
+---
+<ul class="tags">
+  {
+    tags.map(tag => (
+    <li class="tag"><a href={`/videos/tags/${tag}`}>#{tag}</a></li>
+    ))
+  }
+</ul>
+<style>
+  .tags {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 -0.25rem;
+  }
+
+  .tag {
+    padding: 0 0.25rem;
+  }
+</style>
