@@ -10,7 +10,8 @@ const videoCollection = defineCollection({
     tags: z.array(z.string()),
     added: z.date(),
     platform: z.string(),
-    'video-tags': z.array(z.string())
+    'video-tags': z.array(z.string()),
+    'source-link': z.string()
   })
 });
 // 3. Export a single `collections` object to register your collection(s)

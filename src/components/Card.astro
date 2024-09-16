@@ -19,6 +19,10 @@ const { Content } = await video.render();
   <div class="page-link-block">
     <a href={`/videos/${video.slug}`} class="page-link">More info &rarr;</a>
   </div>
+  <div class="source-link-block">
+    <a href={video.data['source-link']} class="source-link">Watch on {video.data.platform} &rarr;</a>
+  </div>
+
 </div>
 <style>
   .card {
@@ -27,13 +31,16 @@ const { Content } = await video.render();
 
   .title {
     text-align: left;
+    margin-bottom: 1rem;
   }
 
-  .page-link-block {
+  .page-link-block, .source-link-block {
     text-align: right;
+    margin-bottom: 1rem;
   }
 
-  .page-link {
+  .page-link, .source-link {
+    display: inline-block;
     border: 1px solid #ffffff;
     padding: 0.3rem;
     border-bottom-width: 3px;
