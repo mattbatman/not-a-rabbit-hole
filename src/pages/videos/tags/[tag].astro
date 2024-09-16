@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import Card from '../../../components/Card.astro';
+
+export async function getStaticPaths() {
+  const allVideos = await getCollection('videos');
+
+  const uniqueTags = [...new Set(allVideos.map((video) => video.data['video-tags']).flat())];
+
+  return uniqueTags.map((tag) => {
+    const filteredVideos = allVideos.filter((video) => video.data['video-tags'].includes(tag));
+
+    return {
+      params: { tag },
+      props: { videos: filteredVideos },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+const { videos } = Astro.props;
+---
+
+<Layout>
+  <main class="main-container">
+
+
+     <div class="tube">
+   <a href="/" class="back-link">&larr; Not a rabbit hole.</a>
+    <h1>#{ tag }</h1>
+
+		  {
+			  videos.map((video) => <Card video={video} />)
+		  }
+     </div>
+  </main>
+</Layout>
+<style>
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+  }
+
+  .back-link {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+</style>

@@ -1,7 +1,7 @@
 ---
 id: 3
 title: Very Fine People Clip
-channel: "@EndWokeness"
+channel: '@EndWokeness'
 tags:
   - twitter
   - politics
