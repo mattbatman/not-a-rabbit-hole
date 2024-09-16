@@ -7,12 +7,17 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "prettier": "prettier --config \"./.prettierrc.json\" --write \"./src/**/*.{ts,tsx,js,jsx}\""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
     "astro": "^4.15.4",
     "typescript": "^5.6.2",
     "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
