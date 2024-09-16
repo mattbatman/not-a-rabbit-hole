@@ -19,7 +19,7 @@ const { video } = Astro.props;
 const { Content } = await video.render();
 ---
 
-<Layout title="Not a rabbit hole.">
+<Layout title={video.data.title}>
   <main>
     <div class="tube">
     <a href="/" class="back-link">&larr; Not a rabbit hole.</a>
