@@ -2,16 +2,26 @@
 interface Props {
   href: string;
   text: string;
+  platform?: string;
 }
 
-const { text, href } = Astro.props;
+const { text, href, platform } = Astro.props;
 ---
-<a href={href}>{text} &rarr;</a>
+<a href={href} class:list={[
+  { youtube: platform === 'YouTube' },
+  { x: platform === 'X' }
+]}>{text} &rarr;</a>
 <style>
   a {
     display: inline-block;
     background-color: var(--green);
     padding: 0.5rem;
     border-radius: 0.25rem;
+  }
+  a.x {
+    background-color: var(--x);
+  }
+  a.youtube {
+    background-color: var(--youtube);
   }
 </style>
