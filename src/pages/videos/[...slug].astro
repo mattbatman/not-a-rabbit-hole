@@ -33,9 +33,11 @@ const { Content } = await video.render();
       Attribution: { video.data.channel }
     </div>
     <div class="tags-container">
-    <Tags tags={video.data['video-tags']} />
+      <Tags tags={video.data['video-tags']} />
     </div>
-    <SourceLink link={video.data['source-link']} platform={video.data.platform} />
+    <div class="source-link-container">
+      <SourceLink link={video.data['source-link']} platform={video.data.platform} />
+    </div>
     </div>
   </main>
 </Layout>
@@ -59,5 +61,11 @@ const { Content } = await video.render();
 
   .tags-container {
     margin-bottom: 1rem;
+  }
+
+  .source-link-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
   }
 </style>
