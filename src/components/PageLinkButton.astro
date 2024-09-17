@@ -3,20 +3,16 @@ interface Props {
   slug: string;
 }
 
+import Button from './Button.astro';
+
 const { slug } = Astro.props;
 ---
 
 <div class="page-link-block">
-  <a href={`/videos/${slug}`} class="page-link">More info &rarr;</a>
+  <Button href={`/videos/${slug}`} text="More info" />
 </div>
 <style>
   .page-link-block {
     margin-bottom: 1rem;
-  }
-
-  .page-link {
-    display: inline-block;
-    border: 1px solid #ffffff;
-    padding: 0.5rem;
   }
 </style>
