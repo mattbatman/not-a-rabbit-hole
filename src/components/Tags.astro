@@ -5,10 +5,13 @@ interface Props {
 
 const { tags } = Astro.props;
 ---
+
 <ul class="tags">
   {
-    tags.map(tag => (
-    <li class="tag"><a href={`/videos/tags/${tag}`}>#{tag}</a></li>
+    tags.map((tag) => (
+      <li class="tag">
+        <a href={`/videos/tags/${tag}`}>#{tag}</a>
+      </li>
     ))
   }
 </ul>

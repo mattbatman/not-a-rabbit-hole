@@ -7,10 +7,12 @@ interface Props {
 
 const { text, href, platform } = Astro.props;
 ---
-<a href={href} class:list={[
-  { youtube: platform === 'YouTube' },
-  { x: platform === 'X' }
-]}>{text} &rarr;</a>
+
+<a
+  href={href}
+  class:list={[{ youtube: platform === 'YouTube' }, { x: platform === 'X' }]}
+  >{text} &rarr;</a
+>
 <style>
   a {
     display: inline-block;

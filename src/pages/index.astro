@@ -7,14 +7,12 @@ const videos = await getCollection('videos');
 ---
 
 <Layout title="Not a rabbit hole.">
-	<main class="main-container">
+  <main class="main-container">
     <h1>This is not a rabbit hole.</h1>
     <div class="tube">
-		{
-			videos.map((video) => <Card video={video} />)
-		}
+      {videos.map((video) => <Card video={video} />)}
     </div>
-	</main>
+  </main>
 </Layout>
 <style>
   h1 {
