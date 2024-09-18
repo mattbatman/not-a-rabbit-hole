@@ -17,27 +17,45 @@ export async function getStaticPaths() {
 
 const { video } = Astro.props;
 const { Content } = await video.render();
+const { title: narTitle, channel, platform } = video.data;
+const sourceLink = video.data['source-link'];
+const videoTags = video.data['video-tags'];
+const videoDescriptionMarkup = video.data['video-description'] ?? null;
+const videoTitle = video.data['video-title'] ?? null;
+const tweetTextMarkup = video.data['tweet-text'] ?? null;
 ---
 
 <Layout title={video.data.title}>
   <main>
     <div class="tube">
     <a href="/" class="back-link">&larr; Not a rabbit hole.</a>
-    <div class:list={[ 'video-wrapper', `${video.data.platform}` ]}>
+
+    <div class:list={[ 'video-wrapper', `${platform}` ]}>
       <Content />
     </div>
+
     <div class="title">
-     { video.data.title }
+     { narTitle }
     </div>
+
+    { videoTitle && <div class="video-title">{ videoTitle }</div> }
+
+    { tweetTextMarkup && <div set:html={tweetTextMarkup} />}
+
+    { videoDescriptionMarkup && <div set:html={videoDescriptionMarkup} />}
+
     <div class="attribution">
-      Attribution: { video.data.channel }
+     { channel }
     </div>
-    <div class="tags-container">
-      <Tags tags={video.data['video-tags']} />
-    </div>
+
     <div class="source-link-container">
-      <SourceLink link={video.data['source-link']} platform={video.data.platform} />
+      <SourceLink link={sourceLink} platform={platform} />
     </div>
+
+    <div class="tags-container">
+      <Tags tags={videoTags} />
+    </div>
+
     </div>
   </main>
 </Layout>
@@ -57,6 +75,10 @@ const { Content } = await video.render();
     display: block;
     margin-top: 1rem;
     margin-bottom: 2rem;
+  }
+
+  .source-link-container {
+    margin-bottom: 1rem;
   }
 
   .tags-container {
