@@ -23,6 +23,7 @@ const videoTags = video.data['video-tags'];
 const videoDescriptionMarkup = video.data['video-description'] ?? null;
 const videoTitle = video.data['video-title'] ?? null;
 const tweetTextMarkup = video.data['tweet-text'] ?? null;
+const attributionTitle = platform === 'YouTube' ? 'Channel' : 'User';
 ---
 
 <Layout title={video.data.title}>
@@ -34,18 +35,37 @@ const tweetTextMarkup = video.data['tweet-text'] ?? null;
       <Content />
     </div>
 
-    <div class="title">
+    <h1 class="title">
      { narTitle }
-    </div>
+    </h1>
 
-    { videoTitle && <div class="video-title">{ videoTitle }</div> }
+    {
+      videoTitle &&
+      <div class="video-title">
+        <h2>Video Title</h2>
+        <p>{ videoTitle }</p>
+      </div>
+    }
 
-    { tweetTextMarkup && <div set:html={tweetTextMarkup} />}
+    {
+      tweetTextMarkup &&
+      <div>
+        <h2>X Post Text</h2>
+        <div set:html={tweetTextMarkup} />
+      </div>
+    }
 
-    { videoDescriptionMarkup && <div set:html={videoDescriptionMarkup} />}
+    { 
+      videoDescriptionMarkup &&
+      <div>
+        <h2>Video Description</h2>
+        <div set:html={videoDescriptionMarkup} />
+      </div>
+    }
 
     <div class="attribution">
-     { channel }
+      <h2>{ attributionTitle }</h2>
+      <p>{ channel }</p>
     </div>
 
     <div class="source-link-container">
@@ -89,5 +109,9 @@ const tweetTextMarkup = video.data['tweet-text'] ?? null;
     display: flex;
     justify-content: flex-end;
     flex-flow: row wrap;
+  }
+
+  h2 {
+    color: var(--green);
   }
 </style>
