@@ -12,17 +12,21 @@ import PageLinkButton from './PageLinkButton.astro';
 const { video } = Astro.props;
 const { Content } = await video.render();
 ---
+
 <div class="card">
-  <div class:list={[ 'video-wrapper', `${video.data.platform}` ]}>
+  <div class:list={['video-wrapper', `${video.data.platform}`]}>
     <Content />
   </div>
   <div class="meta">
     <div class="title">
-     { video.data.title }
+      {video.data.title}
     </div>
     <div class="link-block">
       <PageLinkButton slug={video.slug} />
-      <SourceLink platform={video.data.platform} link={video.data['source-link']} />
+      <SourceLink
+        platform={video.data.platform}
+        link={video.data['source-link']}
+      />
     </div>
     <Tags tags={video.data['video-tags']} />
   </div>
