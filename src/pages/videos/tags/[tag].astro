@@ -29,8 +29,8 @@ const { videos } = Astro.props;
 <Layout title={tag}>
   <main class="main-container">
     <div class="tube">
-      <a href="/" class="back-link">&larr; Not a rabbit hole.</a>
-      <h1>#{tag}</h1>
+      <a href="/" class="back-link fraunces-i">&larr; Not a rabbit hole.</a>
+      <h1 class="fraunces-tag-header">#{tag}</h1>
       {videos.map((video) => <Card video={video} />)}
     </div>
   </main>
