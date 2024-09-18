@@ -6,7 +6,8 @@ const videoCollection = defineCollection({
   schema: z.object({
     id: z.number(),
     title: z.string(),
-    channel: z.string(),
+    attribution: z.string(),
+    'attribution-link': z.string(),
     tags: z.array(z.string()),
     added: z.date(),
     platform: z.string(),

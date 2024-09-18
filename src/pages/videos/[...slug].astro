@@ -17,8 +17,9 @@ export async function getStaticPaths() {
 
 const { video } = Astro.props;
 const { Content } = await video.render();
-const { title: narTitle, channel, platform } = video.data;
+const { title: narTitle, attribution, platform } = video.data;
 const sourceLink = video.data['source-link'];
+const attributionLink = video.data['attribution-link'];
 const videoTags = video.data['video-tags'];
 const videoDescriptionMarkup = video.data['video-description'] ?? null;
 const videoTitle = video.data['video-title'] ?? null;
@@ -65,7 +66,7 @@ const attributionTitle = platform === 'YouTube' ? 'Channel' : 'User';
 
     <div class="attribution">
       <h2>{ attributionTitle }</h2>
-      <p>{ channel }</p>
+      <p><a href={attributionLink}>{ attribution }</a></p>
     </div>
 
     <div class="source-link-container">
