@@ -10,8 +10,11 @@ const { text, href, platform } = Astro.props;
 
 <a
   href={href}
-  class:list={['fraunces-button', { youtube: platform === 'YouTube' }, { x: platform === 'X' }]}
-  >{text} &rarr;</a
+  class:list={[
+    'fraunces-button',
+    { youtube: platform === 'YouTube' },
+    { x: platform === 'X' }
+  ]}>{text} &rarr;</a
 >
 <style>
   a {
