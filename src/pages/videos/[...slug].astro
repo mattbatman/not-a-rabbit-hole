@@ -30,20 +30,20 @@ const attributionTitle = platform === 'YouTube' ? 'Channel' : 'User';
 <Layout title={video.data.title}>
   <main>
     <div class="tube">
-      <a href="/" class="back-link">&larr; Not a rabbit hole.</a>
+      <a href="/" class="back-link fraunces-i">&larr; Not a rabbit hole.</a>
 
       <div class:list={['video-wrapper', `${platform}`]}>
         <Content />
       </div>
 
-      <h1 class="title">
+      <h1 class="title fraunces-title">
         {narTitle}
       </h1>
 
       {
         videoTitle && (
           <div class="video-title">
-            <h2>Video Title</h2>
+            <h2 class="fraunces-section-header">Video Title</h2>
             <p>{videoTitle}</p>
           </div>
         )
@@ -52,7 +52,7 @@ const attributionTitle = platform === 'YouTube' ? 'Channel' : 'User';
       {
         tweetTextMarkup && (
           <div>
-            <h2>X Post Text</h2>
+            <h2 class="fraunces-section-header">X Post Text</h2>
             <div set:html={tweetTextMarkup} />
           </div>
         )
@@ -61,14 +61,14 @@ const attributionTitle = platform === 'YouTube' ? 'Channel' : 'User';
       {
         videoDescriptionMarkup && (
           <div>
-            <h2>Video Description</h2>
+            <h2 class="fraunces-section-header">Video Description</h2>
             <div set:html={videoDescriptionMarkup} />
           </div>
         )
       }
 
       <div class="attribution">
-        <h2>{attributionTitle}</h2>
+        <h2 class="fraunces-section-header">{attributionTitle}</h2>
         <p><a href={attributionLink}>{attribution}</a></p>
       </div>
 
@@ -86,7 +86,7 @@ const attributionTitle = platform === 'YouTube' ? 'Channel' : 'User';
   .title {
     text-align: left;
     margin-bottom: 1rem;
-    font-weight: bold;
+    font-size: 3.33rem;
   }
 
   .attribution {
@@ -101,11 +101,11 @@ const attributionTitle = platform === 'YouTube' ? 'Channel' : 'User';
   }
 
   .source-link-container {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .tags-container {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .source-link-container {
