@@ -3,7 +3,17 @@ import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import Card from '../components/Card.astro';
 
-const videos = await getCollection('videos');
+const videoCollection = await getCollection('videos');
+
+const videos = videoCollection.sort(function (a, b) {
+  if (a.id > b.id) {
+    return -1;
+  }
+  if (a.id < b.id) {
+    return 1;
+  }
+  return 0;
+});
 ---
 
 <Layout title="Not a rabbit hole.">

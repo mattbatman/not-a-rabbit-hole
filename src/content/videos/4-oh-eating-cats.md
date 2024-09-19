@@ -1,6 +1,6 @@
 ---
 id: 4
-title: Eating Cats in Springfield, OH
+title: Eating Cats in Ohio
 attribution: '@libsoftiktok'
 tags:
   - twitter
