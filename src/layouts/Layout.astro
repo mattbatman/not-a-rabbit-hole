@@ -19,6 +19,9 @@ const { title } = Astro.props;
   </head>
   <body>
     <slot />
+    <footer>
+      Made in Indiana by <a href="https://mattbatman.com">Matt Batman</a>
+    </footer>
   </body>
 </html>
 <style is:global>
@@ -196,5 +199,17 @@ const { title } = Astro.props;
   a:visited,
   a:active {
     color: white;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  footer a,
+  footer a:visited,
+  footer a:active {
+    color: var(--orange);
   }
 </style>
