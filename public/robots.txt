@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://notarabbithole.fyi/sitemap-index.xml
