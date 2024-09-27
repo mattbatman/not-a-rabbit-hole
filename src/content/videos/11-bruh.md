@@ -9,6 +9,7 @@ added: 2024-09-26
 platform: X
 video-tags:
   - guns
+  - funny
 source-link: https://x.com/LibertyCappy/status/1832357894328606732
 tweet-text: <p>Bruh <img src="https://abs-0.twimg.com/emoji/v2/svg/1f633.svg" alt="😳" title="Flushed face"></p>
 attribution-link: https://x.com/LibertyCappy
