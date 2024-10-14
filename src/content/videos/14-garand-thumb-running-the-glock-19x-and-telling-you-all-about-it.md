@@ -1,8 +1,8 @@
 ---
 id: 14
 title: Garand Thumb Running the Glock 19X and Telling You All About It.
-attribution: Garand Thumb
-attribution-link: https://www.youtube.com/@GarandThumb
+attribution: GunMagWarehouse
+attribution-link: https://www.youtube.com/@GunMagWarehouseTV
 tags:
   - youtube
   - guns
