@@ -15,7 +15,7 @@ video-tags:
   - cryptocurrency
 source-link: https://www.youtube.com/watch?v=Ouo7Q6Cf_yc
 video-title: Dark Wallet
-video-description: '<p>How to deal with failure and b<p>Trick or Treat, Western Civilization. Donate at <a href="http://igg.me/at/darkwallet/x/5141070">http://igg.me/at/darkwallet/x/5141070</a>Bitcoin donations:<a href="https://coinbase.com/checkouts/866b8f">https://coinbase.com/checkouts/866b8f</a>...Anonymous donors can use: 32wRDBezxnazSBxMrMqLWqD1ajwEqnDnMc</p>ad situations.  Excerpt from the Jocko Podcast (iTunes).</p><p>Video by Echo Charles.</p><p>Join the Conversation on Instagram / Twitter: @jockowillink  @echocharles</p>'
+video-description: '<p>Trick or Treat, Western Civilization. Donate at <a href="http://igg.me/at/darkwallet/x/5141070">http://igg.me/at/darkwallet/x/5141070</a>Bitcoin donations:<a href="https://coinbase.com/checkouts/866b8f">https://coinbase.com/checkouts/866b8f</a>...Anonymous donors can use: 32wRDBezxnazSBxMrMqLWqD1ajwEqnDnMc</p>'
 title: Dark Wallet
 ---
 
