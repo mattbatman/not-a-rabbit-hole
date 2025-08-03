@@ -13,4 +13,5 @@ video-title: The Right Way To Grip A Pistol
 title: The Right Way To Grip A Pistol
 added: 2025-07-19
 ---
+
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/atGHpY3A9uk?si=D7Q_Zxa1nEONn8a3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
