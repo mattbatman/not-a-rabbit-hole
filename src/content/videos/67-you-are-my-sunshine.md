@@ -1,6 +1,6 @@
 ---
 id: 67
-plat: YouTube
+platform: YouTube
 attribution: Song Notes by David Pots
 attribution-link: https://www.youtube.com/@songnotes
 source-link: https://www.youtube.com/watch?v=CYp-KcoA8YY&t=346s
