@@ -1,8 +1,8 @@
-// 1. Import utilities from `astro:content`
 import { z, defineCollection } from 'astro:content';
-// 2. Define your collection(s)
+import { glob } from 'astro/loaders';
+
 const videoCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/videos' }),
   schema: z.object({
     id: z.number(),
     title: z.string(),
@@ -18,8 +18,7 @@ const videoCollection = defineCollection({
     'video-title': z.string().optional()
   })
 });
-// 3. Export a single `collections` object to register your collection(s)
-//    This key should match your collection directory name in "src/content"
+
 export const collections = {
   videos: videoCollection
 };

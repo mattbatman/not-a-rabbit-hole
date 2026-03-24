@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Tags from '../../components/Tags.astro';
 import SourceLink from '../../components/SourceLink.astro';
@@ -9,14 +9,14 @@ export async function getStaticPaths() {
 
   return videos.map(function (video) {
     return {
-      params: { slug: video.slug },
+      params: { slug: video.id },
       props: { video }
     };
   });
 }
 
 const { video } = Astro.props;
-const { Content } = await video.render();
+const { Content } = await render(video);
 const { title: narTitle, attribution, platform } = video.data;
 const sourceLink = video.data['source-link'];
 const attributionLink = video.data['attribution-link'];
