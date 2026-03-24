@@ -4,13 +4,13 @@ interface Props {
 }
 
 import type { CollectionEntry } from 'astro:content';
+import { render } from 'astro:content';
 import Tags from './Tags.astro';
 import SourceLink from './SourceLink.astro';
 import PageLinkButton from './PageLinkButton.astro';
 
-// `post` will match your 'blog' collection schema type
 const { video } = Astro.props;
-const { Content } = await video.render();
+const { Content } = await render(video);
 ---
 
 <div class="card">
@@ -22,7 +22,7 @@ const { Content } = await video.render();
       {video.data.title}
     </div>
     <div class="link-block">
-      <PageLinkButton slug={video.slug} />
+      <PageLinkButton slug={video.id} />
       <SourceLink
         platform={video.data.platform}
         link={video.data['source-link']}
