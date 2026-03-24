@@ -15,4 +15,4 @@ video-description: <p>In this one I keep it simple for those just buying your fi
 title: Your FIRST handgun with Mike Glover
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dn2Tnhm3pm8?si=BbQnI8VHfkwllkdl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dn2Tnhm3pm8?si=BbQnI8VHfkwllkdl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

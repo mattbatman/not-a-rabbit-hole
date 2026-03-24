@@ -19,4 +19,4 @@ video-description: '<p>Trick or Treat, Western Civilization. Donate at <a href="
 title: Dark Wallet
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ouo7Q6Cf_yc?si=KkJaXMPox8GPh2YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ouo7Q6Cf_yc?si=KkJaXMPox8GPh2YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

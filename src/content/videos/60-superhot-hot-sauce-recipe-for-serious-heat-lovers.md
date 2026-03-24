@@ -15,4 +15,4 @@ title: Superhot Hot Sauce Recipe (For Serious Heat Lovers)
 added: 2025-08-03
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WJhsW2eoQYs?si=Ko24MfgBeQfYCVwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/WJhsW2eoQYs?si=Ko24MfgBeQfYCVwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

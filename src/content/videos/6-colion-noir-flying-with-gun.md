@@ -16,4 +16,4 @@ video-description: '<p>📲 Subscribe to ‪@ColionNoir‬  Here: <a href="http:
 video-title: The Truth About Flying With A Gun
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yoFwgIG-7yQ?si=hvK4ekjBjLRI-m_O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/yoFwgIG-7yQ?si=hvK4ekjBjLRI-m_O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

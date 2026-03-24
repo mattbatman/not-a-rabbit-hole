@@ -15,4 +15,4 @@ video-description: '<p>The correct way to adjust the chain tension on your chain
 title: CORRECT WAY To Adjust The Chain Tension On Your Chainsaw
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FxgQSPQeYYM?si=yBdGAQqzgRXXzP0v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/FxgQSPQeYYM?si=yBdGAQqzgRXXzP0v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

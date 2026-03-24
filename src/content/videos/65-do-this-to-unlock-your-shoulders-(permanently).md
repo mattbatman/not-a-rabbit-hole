@@ -14,4 +14,4 @@ video-title: Do this to unlock your shoulders (permanently)
 title: Do this to unlock your shoulders (permanently)
 added: 2025-12-27
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZJhQ0V68Zew?si=FTK-fDO6jUimm6vd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZJhQ0V68Zew?si=FTK-fDO6jUimm6vd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

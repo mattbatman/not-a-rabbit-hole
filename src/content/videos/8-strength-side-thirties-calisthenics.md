@@ -16,4 +16,4 @@ video-title: This Formula got me Muscular Lean and Flexible in my 30's with no g
 attribution-link: https://www.youtube.com/@Strengthside
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8y-eAq794Dg?si=cbe0YFsPKWsvrq9h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/8y-eAq794Dg?si=cbe0YFsPKWsvrq9h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

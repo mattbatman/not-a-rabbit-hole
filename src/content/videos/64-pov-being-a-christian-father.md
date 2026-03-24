@@ -13,4 +13,4 @@ video-title: "Pov: Being A Christian Father"
 title: "Pov: Being A Christian Father"
 added: 2025-11-10
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lQZM8hTe-2M?si=HP2XRBHg86EjcI6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/lQZM8hTe-2M?si=HP2XRBHg86EjcI6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

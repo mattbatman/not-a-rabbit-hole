@@ -15,4 +15,4 @@ video-description: '<p>Sure, you can run a GLOCK dirty for quite some time and p
 source-link: https://www.youtube.com/watch?v=S_xjPXEKjOc&list=WL&index=179
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S_xjPXEKjOc?si=-hXPYi2KiZH5hrYn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/S_xjPXEKjOc?si=-hXPYi2KiZH5hrYn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

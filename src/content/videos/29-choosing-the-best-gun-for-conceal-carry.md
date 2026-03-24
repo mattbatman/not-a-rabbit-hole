@@ -15,4 +15,4 @@ video-description: '<p>Today, John talks about concealed carry pistols, the diff
 title: Choosing the BEST Gun for Conceal Carry
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5sxDJ94f7Ps?si=BPlE-_s9kzIRJ7Bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5sxDJ94f7Ps?si=BPlE-_s9kzIRJ7Bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

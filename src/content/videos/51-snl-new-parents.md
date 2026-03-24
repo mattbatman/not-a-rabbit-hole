@@ -14,4 +14,4 @@ title: New Parents - SNL
 video-description: <p>New parents (Jon Hamm, Bowen Yang) bring their baby to meet their friends (Heidi Gardner, Sarah Sherman, Mikey Day, Andrew Dismukes).</p>
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-ryBqgkOw4U?si=RhGVKS455SWmFh6G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/-ryBqgkOw4U?si=RhGVKS455SWmFh6G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

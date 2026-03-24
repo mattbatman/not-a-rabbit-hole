@@ -13,4 +13,4 @@ video-title: Smoked Pulled Beef from a Smoked Chuck Roast
 title: Smoked Pulled Beef from a Smoked Chuck Roast
 added: 2025-08-16
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JElYVNPIx0g?si=MsQsCmXsG0t1F27f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/JElYVNPIx0g?si=MsQsCmXsG0t1F27f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
