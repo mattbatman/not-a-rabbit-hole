@@ -14,4 +14,4 @@ video-description: '<p>🩰 Code “NSIMA20” To Save 20% on all Vivo Barefoot 
 added: 2025-07-19
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5Rn8iDZOzTk?si=Mui_Dr94J28x4Sq3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5Rn8iDZOzTk?si=Mui_Dr94J28x4Sq3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -16,4 +16,4 @@ video-description: '<p>&quot;This is what I&#39;ve been dreaming of, literally f
 title: Chris Cuomo Emerges from Quarantine 14 Days Later
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VeRV_n2ntO0?si=h3A21Kkw39Ed1u-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/VeRV_n2ntO0?si=h3A21Kkw39Ed1u-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

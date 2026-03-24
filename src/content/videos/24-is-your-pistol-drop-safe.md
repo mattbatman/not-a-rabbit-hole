@@ -15,4 +15,4 @@ video-description: '<p>Compare news coverage. Spot media bias. Avoid algorithms.
 title: Is Your Pistol Drop Safe?
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RMTe87kATmU?si=Em4JB7xmBR5-Zvzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/RMTe87kATmU?si=Em4JB7xmBR5-Zvzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

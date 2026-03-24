@@ -13,5 +13,5 @@ video-title: 🎸 You Are My Sunshine • Easy guitar lesson w/ melody tab
 title: 🎸 You Are My Sunshine • Easy guitar lesson w/ melody tab
 added: 2025-12-29
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CYp-KcoA8YY?si=T2rfYhS_jHtWzjeu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/CYp-KcoA8YY?si=T2rfYhS_jHtWzjeu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
